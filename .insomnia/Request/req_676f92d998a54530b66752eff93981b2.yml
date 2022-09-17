@@ -1,0 +1,30 @@
+_id: req_676f92d998a54530b66752eff93981b2
+type: Request
+parentId: wrk_16bc0db50e88410aaf70aa4f9675ea0a
+modified: 1663408192087
+created: 1663407369021
+url: http://182.156.196.67:8090/login
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "userId":"120903",
+        "password":"@BADRINATH.JOSHI_2022"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b6f96028bc0646d79b75fe9b1b43a9e3
+authentication: {}
+metaSortKey: -1663407369021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
